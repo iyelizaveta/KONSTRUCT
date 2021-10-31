@@ -2,19 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KONSTRUCT</title>
+    <meta name="description" content="Одностраничный сайт, лендинг">
+    <meta name="keywords" content="HTML, CSS, lesson">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>KONSTRUCT</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo"></div>  
+              <div class="about__img">
+                <img src="./images/projeco-logo.png" alt="">
+              </div>  
+          </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+          <h1 class="intro__title">PARTNER WITH KONSTUCT</h1>
+          <h2 class="intro__subtitle">An award-winning construction management firm</h2>
+        </div>
+        <p class="intro__text">SCROLL DOWN</p>
+    </div>
+    <div class="about">
+        <div class="about__item">
+          <div class="about__img">
+            <img src="./images/projeco-logo-black.png" alt="">  
+          </div> 
+          <nav class="nav">
+            <a class="nav__link" href="#">Home</a>  
+            <a class="nav__link" href="#">About</a> 
+            <a class="nav__link" href="#">Service</a> 
+            <a class="nav__link" href="#">Work</a> 
+            <a class="nav__link" href="#">Contact</a> 
+          </nav>      
+        </div>     
+    </div>
+    <section class="services">
+        <div class="capabilities">
+            <div class="capabilities_name">
+                <h3>our capabilities</h3>
+                <hr>
+            </div>
+            <div class="capabilities_text">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.</p>
+            </div>
+            <button type="submit">ALL SERVICES</button>
+        </div>
+        <ul class="kards">
+            <li class="kard">
+                <img src="./images/icons/icon_1.png" alt="icon_1">
+                <h4>PROJECT AND CONSTRUCTION MANAGEMENT</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.</p>
+            </li>
+            <li class="kard">
+                <img src="./images/icons/icon_2.png" alt="icon_2">
+                <h4>STRUCTURE AUDIT AND MAINTENANCE</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.</p>
+            </li>
+            <li class="kard">
+                <img src="./images/icons/icon_3.png" alt="icon_3">
+                <h4>FACTORY CONSTRUCTION AND MODELING</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat.</p>
+            </li>
+        </ul>
+    </section>
     <section class="work">
         <a name="Work"></a>
         <h2>Want to build <br> something amazing?</h2>
         <form>
-            <button class="get_in_touch">
+            <button class="get_in_touch" type="button">
                 GET IN TOUCH
             </button>
         </form>
@@ -27,5 +97,95 @@
             </label>
         </form>
     </div>
+    <footer>
+        <div class="footer_background">
+            <div class="footer_content_size">
+                <article class="footer_topic_container">
+                    <h3 class="footer_topic">company</h3>
+                    <h3 class="footer_topic footer_topic_links">links</h3>
+                    <h3 class="footer_topic">contact us</h3>
+                </article>
+                <section class="footer_container">
+                    <article class="footer_logo_container">
+                        <p class="logo">konstru
+                        <span><img src="./images/icons/triangle.png"></span>
+                        t</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                        </p>
+                    </article>
+                    <nav class="footer_navigation_links">
+                        <ul>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">home</a>
+                            </li>
+                            <li class="footer_list"> 
+                                <a class="footer_link" href="#">about</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">services</a>
+                            </li>
+                            <li class="footer_list"> 
+                                <a class="footer_link" href="#">projects</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">contact us</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">faq</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">terms</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">careers</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">blog</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">partners</a>
+                            </li>
+                            <li class="footer_list">
+                                <a class="footer_link" href="#">news</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <article class="footer_adress_cotainer">
+                        <p>
+                            213 Baker Street Oriel City Kounty 7000 KNW, Kounty Name
+                        </p>
+                        <p class="footer_phonenumber">
+                            +23 994 233 4022
+                        </p>
+                        <p>
+                            info&#64konstruct.com
+                        </p>
+                    </article>
+                    <nav>
+                        <ul class="footer_social_media">
+                            <li>
+                                <a href="https://www.facebook.com/" target="blank"><img src="./images/icons/facebook.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="blank"><img src="./images/icons/twitter.png"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/" target="blank"><img src="./images/icons/google.png"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </div>
+        <p class="footer_copyright">
+        &#169 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+        </p>
+    </footer>
 </body>
 </html>
