@@ -1,5 +1,6 @@
 @import url(normalize.css);
-@import url(sec_work.css); 
-@import url(footer_style.css);
-@import url(sec_services.css);
 @import url(header.css);
+@import url(sec_about.css);
+@import url(sec_services.css);
+@import url(sec_work.css); 
+@import url(footer.css);
