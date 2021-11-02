@@ -27,18 +27,18 @@
     background-color: #00A4E5;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #000000;
     line-height: 1.3rem;
     font-size: 0.8rem; 
     text-align: center;
     letter-spacing: 0.1vw;
     color:#FFFFFF;
-    box-shadow: 1px 1px 1px #000000; 
     margin-top: 35px;
 }
 
 .get_in_touch:hover {
-    background: #125570;; 
+    text-shadow: 1px 1px 1px #000000;
+    background: #125570;
+    box-shadow: 1px 1px 1px #000000;
 }
 
 .newslatter {
@@ -76,7 +76,17 @@
     margin-left: 30px;
     padding-left: 5px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 1px #FFFFFF;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+::placeholder {
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif ;
+}
+
+.newslatter input:hover {
+    box-shadow: 1px 1px 1px #FFFFFF; 
 }
 
 .newslatter button {
@@ -88,45 +98,46 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #000000;
     line-height: 1.3rem;
     font-size: 0.8rem; 
     text-align: center;
     letter-spacing: 0.1vw;
     color:#FFFFFF;
-    box-shadow: 1px 1px 1px #FFFFFF; 
 }
 
 .newslatter button:hover {
     background: #125570;
+    text-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px #FFFFFF; 
 }
 
 @media (max-width: 800px) {
+    .work h2 {
+        font-size: 25px;
+    }
     .newslatter button {
         width: 150px;
         height: 30px;
-        font-size: 0.8em;
     }
     .newslatter input {
         width: 175px;
         height: 30px;
     }
     .newslatter label {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 }
 
 @media (max-width: 375px) {
+    .work h2 {
+        font-size: 20px;
+    }
     .newslatter button {
         width: 150px;
         height: 30px;
-        font-size: 0.8em;
     }
     .newslatter input {
         width: 175px;
         height: 30px;
-    }
-    .newslatter label {
-        font-size: 0.8em;
     }
 }

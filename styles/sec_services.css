@@ -52,16 +52,16 @@
     color: #FFFFFF;
     font-size: 0.8rem;    
     font-weight: bold;
-    text-shadow: 1px 1px 1px black;
     line-height: 1.3rem;   
     text-align: center;
     letter-spacing: 0.1vw;
     padding: 4px 5px;
-    margin-bottom: 2%;
-    box-shadow: 1px 1px 1px black;    
+    margin-bottom: 2%;   
 }
 .capabilities button:hover {     
-    background: #125570;; 
+    background: #125570;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px black; 
 } 
 .kards {
     display: flex;

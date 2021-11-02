@@ -4,3 +4,7 @@
 @import url(sec_services.css);
 @import url(sec_work.css); 
 @import url(footer.css);
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
