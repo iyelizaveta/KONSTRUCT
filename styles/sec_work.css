@@ -111,7 +111,7 @@
     box-shadow: 1px 1px 1px #FFFFFF; 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .work h2 {
         font-size: 25px;
     }

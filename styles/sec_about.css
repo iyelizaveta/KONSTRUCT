@@ -1,16 +1,22 @@
 .our__story, 
 .our__story__header {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
 }
 
 .our__story__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 50px 0;
   color: rgba(72, 85, 91, 1);
   font-style: normal;
@@ -26,8 +32,7 @@
 .our__story__main {
   display: flex;
   justify-content: space-between;
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .our__story__main__text h2 {
@@ -37,6 +42,8 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 27px;
 }
 
 .our__story__main__text p {
@@ -45,6 +52,8 @@
   font-weight: normal;
   font-size: 13px;
   color: #48555B;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 23px;
 }
 
 .our__story__main__text span {
@@ -54,7 +63,7 @@
 .our__story__main__images {
   display: flex;
   align-items: flex-end;
-  padding-left: 60px; 
+  padding-left: 60px;
 }
 
 .our__story__main__images ul {
@@ -70,15 +79,18 @@
 }
 
 .image-vidget{
-  width: 150px;
-  height: 250px;
+  width: 200px;
+  height: 300px;
 }
 
 @media (max-width: 900px) {
   .our__story__main {
     flex-direction: column;
   }
-
+  .image-vidget{
+    width: 150px;
+    height: 250px;
+  }
   .our__story__main__images {
     padding: 0;
     justify-content: center;
@@ -91,27 +103,17 @@
   .our__story__main__text {
     text-align: center;
   }
-
   .our__story__main__images ul {
     flex-direction: column;
   }
-
   .our__story__main__images ul li{
     margin: 20px 0;
   }
 }
 
-@media (max-width: 900px) {
-  .image-vidget{
-    width: 250px;
-    height: 350px;
-  }
-}
-
-@media (max-width: 483px) {
+@media (max-width: 375px) {
   .image-vidget {
-    width: 150px;
-    height: 250px;
+    width: 100px;
+    height: 200px;
   }
-
 }
